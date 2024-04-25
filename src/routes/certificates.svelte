@@ -78,14 +78,19 @@
 		</div>
 		<button
 			class="text-white absolute z-20 left-1/2 -translate-x-1/2"
-			on:click={() => (showingAllCertificates.set(!$showingAllCertificates))}
+			on:click={() => showingAllCertificates.set(!$showingAllCertificates)}
 			on:keydown={(event) => {
 				if (event.key === 'Enter' || event.key === 'Escape') {
-					showingAllCertificates.set(!$showingAllCertificates)
+					showingAllCertificates.set(!$showingAllCertificates);
 				}
 			}}
 		>
-			{$showingAllCertificates ? 'Show less' : 'Show more'}
+			<!-- {#if $showingAllCertificates} -->
+			<div class=" transition-transform {$showingAllCertificates ? "rotate-0" : "rotate-180"}"><i class="mi mi-chevron-up text-2xl "></i></div>
+			<!-- {:else} -->
+			<!-- <i class="mi mi-chevron-down"></i> -->
+			<!-- {/if} -->
+			<!-- {$showingAllCertificates ? 'Show less' : <i class="mi mi-chevron-down"><span class="u-sr-only">Chevron down</span></i>} -->
 		</button>
 		{#if isDisplayOpen}
 			<button

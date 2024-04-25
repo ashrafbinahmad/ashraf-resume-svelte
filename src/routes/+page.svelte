@@ -47,7 +47,7 @@
 	bind:clientWidth={containerWidth}
 	on:scroll={({ target }) => (scrolled = target.scrollTop)}
 >
-	<Header />
+	<!-- <Header />
 	<Skills />
 	<ProjectsHead />
 	<section bind:this={$projectSection} class="bg-color-1 min-h-screen">
@@ -62,6 +62,6 @@
 	</section>
 
 	<Education />
-	<Certificates />
+	<Certificates /> -->
 	<Footer />
 </main>
