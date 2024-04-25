@@ -41,8 +41,8 @@
 <!-- {@debug y} -->
 
 <main
-	class="sm:snap-y overflow-y-scroll overflow-x-hidden h-screen scroll-smooth
-	{projectSectionPassed ? 'sm:snap-mandatory' : 'sm:snap-proximity'}"
+	class="_sm:snap-y overflow-y-scroll overflow-x-hidden h-screen scroll-smooth
+	{projectSectionPassed ? '_sm:snap-mandatory' : '_sm:snap-proximity'}"
 	bind:this={$mainRoot}
 	bind:clientWidth={containerWidth}
 	on:scroll={({ target }) => (scrolled = target.scrollTop)}
