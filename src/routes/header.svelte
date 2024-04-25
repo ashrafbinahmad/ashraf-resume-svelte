@@ -45,6 +45,7 @@
 <section
 	class="bg-color-1 min-h-screen w-screen relative snap-start overflow-hidden z-20 top-0 transition-all"
 	bind:this={headerSection}
+	id="About"
 >
 	<nav
 		class="container m-auto text-xl flex justify-between items-center h-[5rem] relative overflow-hidden
