@@ -115,7 +115,7 @@
 		}
 		.component {
 			--marquee-width: 100vw;
-			--marquee-height: 16vh;
+			--marquee-height: 6vh;
 			--marquee-elements-displayed: 3;
 		}
 		.marquee:before,

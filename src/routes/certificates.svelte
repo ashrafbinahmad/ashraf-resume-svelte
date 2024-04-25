@@ -64,9 +64,11 @@
 						displayImage = { src, alt };
 						isDisplayOpen = true;
 					}}
+					class="max-sm:object-cover max-sm:w-[calc(50vw-4rem)] max-sm:h-[calc(5rem)] overflow-hidden"
 				>
 					<img
-						class="w-auto max-h-[200px] object-cover opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"
+						class="w-auto max-h-[200px] object-cover opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer
+						max-sm:max-w-[calc(50vw-4rem)] max-sm:max-h-none"
 						{src}
 						{alt}
 					/>
@@ -96,7 +98,8 @@
 			>
 				<img
 					transition:scale
-					class="display fixed max-w-[calc(100vw_-_2rem)] max-h-[calc(100vh_-_2rem)] z-70 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+					class="display fixed max-w-[calc(100vw_-_2rem)] max-h-[calc(100vh_-_2rem)] z-70 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2
+							"
 					src={displayImage.src}
 					alt={displayImage.alt}
 				/>
