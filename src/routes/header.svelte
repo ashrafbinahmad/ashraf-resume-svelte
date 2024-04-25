@@ -18,7 +18,7 @@
 	function toggleMenu() {
 		showMenu = !showMenu;
 	}
-	let menuItems = ['About', 'Skills', 'Projects', 'Contact'];
+	let menuItems = ['About', 'Skills', 'Projects'];
 	let parallaxLayers = [
 		{
 			image: layer0,
