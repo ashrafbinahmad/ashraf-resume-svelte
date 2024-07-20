@@ -52,14 +52,14 @@
 max-sm:block max-sm:z-50 max-sm:h-full"
 	>
 		<div class="left text-2xl p-3 max-sm:text-lg">Ash/</div>
-		<button class="absolute right-1 top-0 z-50  p-3 rotate-90 sm:hidden {showMenu ? 'text-white' : 'text-black' }" on:click={toggleMenu}>|||</button>
+		<button class="absolute right-1 top-0 z-50  p-3 rotate-90 {showMenu ? 'text-white' : 'text-black' }" on:click={toggleMenu}>|||</button>
 		<div
 			class="right h-full max-sm:bg-black max-sm:text-white transition-all max-sm:fixed max-sm:right-0 overflow-hidden top-0 {showMenu
 				? 'max-sm:w-full'
 				: 'max-sm:w-0'}"
 		>
 			<menu
-				class="flex gap-2 h-full mt-2
+				class="flex gap-2 h-full
 	max-sm:grid max-sm:w-full max-sm:justify-end max-sm:content-center
 	"
 			>
@@ -72,7 +72,8 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 						</li>
 					</a>
 				{/each}
-				<a href="/static/Ashraf Hudawi Fullstack developer cv.pdf" download on:click={toggleMenu}>
+<<<<<<< HEAD
+				<a href="/static/Ashraf-Hudawi-Fullstack-developer-cv.pdf" download on:click={toggleMenu}>
 					<li
 						class="inline-block px-4 py-2 cursor-pointer relative z-20 transition-all max-sm:block bg-color-2 shadow-sm 
 						hover:shadow-lg"
@@ -80,6 +81,8 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 						Download CV
 					</li>
 				</a>
+=======
+>>>>>>> parent of 60f3297 (added download cv)
 			</menu>
 		</div>
 	</nav>
