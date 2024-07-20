@@ -72,17 +72,7 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 						</li>
 					</a>
 				{/each}
-<<<<<<< HEAD
-				<a href="/static/Ashraf-Hudawi-Fullstack-developer-cv.pdf" download on:click={toggleMenu}>
-					<li
-						class="inline-block px-4 py-2 cursor-pointer relative z-20 transition-all max-sm:block bg-color-2 shadow-sm 
-						hover:shadow-lg"
-					>
-						Download CV
-					</li>
-				</a>
-=======
->>>>>>> parent of 60f3297 (added download cv)
+
 			</menu>
 		</div>
 	</nav>
