@@ -177,27 +177,27 @@ export default {
 		{
 			title: 'Sibaq - Resource Management web Software',
 			link: 'https://sibaq.vercel.app/',
-			img: 'src/lib/images/portfolio/sibaq.png'
+			img: '/portfolio/sibaq.png'
 		},
 		{
 			title: 'Malik Deenar Academy - still working on it',
 			link: 'https://mdia.in/',
-			img: 'src/lib/images/portfolio/mdia.png'
+			img: '/portfolio/mdia.png'
 		},
 		{
 			title: 'E Cart e-ommerce website',
 			link: '',
-			img: 'src/lib/images/e-cart.webp'
+			img: '/portfolio/e-cart.webp'
 		},
 		{
 			title: 'Zaitoon International Campus',
 			link: 'https://zaitooncampus.com/',
-			img: 'src/lib/images/portfolio/zaitooncampus.png'
+			img: '/portfolio/zaitooncampus.png'
 		},
 		{
 			title: 'Smartlink Oil & Gas, UAE',
 			link: 'https://smartlinkoilandgas.com/',
-			img: 'src/lib/images/portfolio/smartlinkoilandgas.png'
+			img: '/portfolio/smartlinkoilandgas.png'
 		}
 	],
 	projects: [
