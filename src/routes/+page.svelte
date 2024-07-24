@@ -11,6 +11,7 @@
 	import Button from './button.svelte';
 	import Certificates from './certificates.svelte';
 	import Footer from './footer.svelte';
+	import Portfolio from './portfolio.svelte';
 
 	// let mainRoot;
 	let containerWidth;
@@ -49,6 +50,7 @@
 >
 	<Header />
 	<Skills />
+	<Portfolio />
 	<ProjectsHead />
 	<section bind:this={$projectSection} class="bg-color-1 min-h-screen">
 		{#each profile.projects as project}
