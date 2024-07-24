@@ -175,30 +175,30 @@ export default {
 	],
 	portfolio: [
 		{
+			title: 'Zaitoon International Campus',
+			link: 'https://zaitooncampus.com/',
+			img: '/portfolio/zaitooncampus.webp'
+		},
+		{
+			title: 'Smartlink Oil & Gas, UAE',
+			link: 'https://smartlinkoilandgas.com/',
+			img: '/portfolio/smartlinkoilandgas.webp'
+		},
+		{
 			title: 'Sibaq - Resource Management web Software',
 			link: 'https://sibaq.vercel.app/',
-			img: '/portfolio/sibaq.png'
+			img: '/portfolio/sibaq.webp'
 		},
 		{
 			title: 'Malik Deenar Academy - still working on it',
 			link: 'https://mdia.in/',
-			img: '/portfolio/mdia.png'
+			img: '/portfolio/mdia.webp'
 		},
 		{
 			title: 'E Cart e-ommerce website',
 			link: '',
 			img: '/portfolio/e-cart.webp'
 		},
-		{
-			title: 'Zaitoon International Campus',
-			link: 'https://zaitooncampus.com/',
-			img: '/portfolio/zaitooncampus.png'
-		},
-		{
-			title: 'Smartlink Oil & Gas, UAE',
-			link: 'https://smartlinkoilandgas.com/',
-			img: '/portfolio/smartlinkoilandgas.png'
-		}
 	],
 	projects: [
 		{

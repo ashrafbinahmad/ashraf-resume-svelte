@@ -67,3 +67,24 @@
 	<Certificates />
 	<Footer />
 </main>
+
+<style>
+	*::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	*::-webkit-scrollbar-track {
+		background: #b89e8f;
+	}
+
+	/* Handle */
+	*::-webkit-scrollbar-thumb {
+		background: #3c0123;
+	}
+
+	/* Handle on hover */
+	*::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+</style>
