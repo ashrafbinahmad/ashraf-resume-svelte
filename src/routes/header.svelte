@@ -52,7 +52,12 @@
 max-sm:block max-sm:z-50 max-sm:h-full"
 	>
 		<div class="left text-2xl p-3 max-sm:text-lg">Ash/</div>
-		<button class="absolute right-1 top-0 z-50  p-3 rotate-90 hidden max-sm:block mr-2 {showMenu ? 'text-white' : 'text-black' }" on:click={toggleMenu}>|||</button>
+		<button
+			class="absolute right-1 top-0 z-50 p-3 rotate-90 hidden max-sm:block mr-2 {showMenu
+				? 'text-white'
+				: 'text-black'}"
+			on:click={toggleMenu}>|||</button
+		>
 		<div
 			class="right h-full max-sm:bg-black max-sm:text-white transition-all max-sm:fixed max-sm:right-0 overflow-hidden top-0 {showMenu
 				? 'max-sm:w-full'
@@ -72,7 +77,13 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 						</li>
 					</a>
 				{/each}
-
+				<a href="https://drive.google.com/file/d/1FXKTtARcQt9SOAAYUDqumB1iAAXBw9Yw/view?usp=sharing" download on:click={toggleMenu}>
+					<li
+						class="inline-block px-4 py-2 cursor-pointer relative z-20 transition-all max-sm:block max-sm:text-right bg-[#fab44c]"
+					>
+						 <i class="fa fa-download" aria-hidden="true"></i> My Resume
+					</li>
+				</a>
 			</menu>
 		</div>
 	</nav>
@@ -80,9 +91,7 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 		<img class="h-[172px] m-auto rounded-full max-sm:h-[100px]" src={PicProfile} alt="" />
 		<h1 class="text-[3.5rem] max-sm:text-[2rem]">Muhammed Ashraf</h1>
 		{#if isVisible}
-			<h2 class="text-lg text-color-3 max-sm:text-[1rem]">
-				FULL-STACK DEVELOPER
-			</h2>
+			<h2 class="text-lg text-color-3 max-sm:text-[1rem]">FULL-STACK DEVELOPER</h2>
 			<p
 				class="_text-sm font-sans m-auto max-w-[38rem] max-sm:text-[14px]"
 				transition:typewriter={{}}
