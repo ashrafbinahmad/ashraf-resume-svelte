@@ -233,24 +233,24 @@ export default {
 	],
 	education: [
 		{
-			degree: 'Bachelor of Technology in Computer Science and Engineering',
-			institution: 'Darul Huda Islamic University',
-			year: '2018-2022'
+			degree: 'Masters in Arabic',
+			institution: 'University of Calicut',
+			year: '2022-2024'
 		},
 		{
-			degree: 'Higher Secondary Education',
+			degree: 'Masters in Islamic Economics and Finance',
+			institution: 'Darul Huda Islamic University',
+			year: '2021-2023'
+		},
+		{
+			degree: 'Degree in Sociology',
+			institution: 'University of Calicut',
+			year: '2019-2022'
+		},
+		{
+			degree: 'Degree in Islamic and Human Sciences',
 			institution: 'Darul Huda Islamic University',
 			year: '2016-2018'
 		},
-		{
-			degree: 'Higher Secondary Education',
-			institution: 'Darul Huda Islamic University',
-			year: '2016-2018'
-		},
-		{
-			degree: 'Higher Secondary Education',
-			institution: 'Darul Huda Islamic University',
-			year: '2016-2018'
-		}
 	]
 };
