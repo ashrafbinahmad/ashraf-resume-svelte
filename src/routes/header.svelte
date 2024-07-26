@@ -77,7 +77,7 @@ max-sm:block max-sm:z-50 max-sm:h-full"
 						</li>
 					</a>
 				{/each}
-				<a href="https://drive.google.com/file/d/1FXKTtARcQt9SOAAYUDqumB1iAAXBw9Yw/view?usp=sharing" download on:click={toggleMenu}>
+				<a href="https://drive.google.com/file/d/1RgtAGe3_UzFDChJ90Fkv0PTL4oKPfT67/view?usp=sharing" target="_blank" download on:click={toggleMenu}>
 					<li
 						class="inline-block px-4 py-2 cursor-pointer relative z-20 transition-all max-sm:block max-sm:text-right bg-[#fab44c]"
 					>
